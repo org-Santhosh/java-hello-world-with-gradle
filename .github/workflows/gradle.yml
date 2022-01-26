@@ -43,7 +43,6 @@ jobs:
           password: ${{ secrets.CF_PASSWORD }} #passing password through secrets
           org: 6fece677trial
           space: prod
-          run : pwd
           manifest: manifest.yml
 
 
