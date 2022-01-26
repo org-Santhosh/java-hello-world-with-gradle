@@ -1,4 +1,4 @@
 ---
 applications:
 - name: cf
-  path: /github/workspace/build/libs/jb-hello-world-0.2.0.jar
+  path: /github/workspace/build/libs/gs-spring-boot-0.1.0.jar
