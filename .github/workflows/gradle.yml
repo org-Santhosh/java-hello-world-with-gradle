@@ -27,6 +27,9 @@ jobs:
         with:
           arguments: build
           
+      - name: Step4 checking build file
+        run: |
+          ls '${{ github.workspace }}/build/libs'          
 
       - name: Step 6 - Deploy to CF
         uses: jhunt/cf-push@v1
