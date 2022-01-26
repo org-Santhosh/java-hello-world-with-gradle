@@ -1,6 +1,5 @@
 
-name: Java CI with Gradle
-
+name: Pipeline
 on:
   workflow_run:
     workflows: [IAC deployment] 
