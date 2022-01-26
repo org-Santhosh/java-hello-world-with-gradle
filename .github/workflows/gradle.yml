@@ -33,7 +33,7 @@ jobs:
 
       - name: Step5 Jfrog artifactory
         uses: jfrog/setup-jfrog-cli@v2.0.0
-         run:jfrog rt ping
+      - run: jfrog rt ping
         
       - name: Step 6 - Deploy to CF
         uses: jhunt/cf-push@v1
