@@ -5,7 +5,7 @@ on:
     workflows: [IAC deployment] 
     types: [completed]
     branches: [master]
-
+ 
 #starting buildjob
 jobs:
   CI:
