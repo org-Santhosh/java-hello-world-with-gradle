@@ -31,9 +31,9 @@ jobs:
         run: |
           ls '${{ github.workspace }}/build/libs' 
           
-      - name: Step6 - Execute of jar file
-        run:
-          java -cp '${{ github.workspace }}'/gs-spring-boot-0.1.0.jar
+      #- name: Step6 - Execute of jar file
+       # run:
+        #  java -cp '${{ github.workspace }}'/gs-spring-boot-0.1.0.jar
   
 
       - name: Step5 Jfrog artifactory
