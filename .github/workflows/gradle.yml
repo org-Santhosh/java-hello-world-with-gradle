@@ -14,7 +14,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Step 1 - Checkout main branch from GitHub 
         uses: actions/checkout@v2
-
-
+     
+      - name: Step 2 - 
+        run: |
+          echo "GITHUB_REF_NAME"
+          echo "GITHUB_REF"
+          echo "GITHUB_ACTOR"
+          echo "GITHUB_ACTION_REPOSITORY"
+          echo "GITHUB_ACTIONS"
+          
 
 
