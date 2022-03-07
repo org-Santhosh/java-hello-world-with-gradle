@@ -31,4 +31,5 @@ jobs:
       - name: print
         run: |
           echo "${{steps.myref.outputs.branch}}"
+          echo "refs/heads/"
 
