@@ -2,7 +2,7 @@
 name: IAC deployment
 #creating event whenever commit happens it will trigger
 on:
-  push:
+  push: 
     branches: [ master ]
 #creating job
 jobs:
